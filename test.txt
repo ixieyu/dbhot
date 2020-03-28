@@ -6,3 +6,55 @@ C4
 C5
 
 D:/ add master
+
+跳海大院
+看理想©
+机器之能©
+小智的互联网观察©
+单向街书店©
+文化产业评论©
+亿欧网©
+中国经营报©
+未来预想图©
+首席人物观
+车东西
+学术经纬
+新智元
+程序人生
+JaccoKliesch​©
+全媒派©
+馒头说©
+一条©
+娱乐资本论
+黑金商业©
+冰川思享号©
+叁里河©
+燃财经
+造就Talk
+BusinessCars©
+极客邦科技InfoQ
+CC周刊©
+腾讯新闻《一线》©
+瞭望智库
+略大参考
+DT数据
+果壳©
+单读
+IT时报©
+爱范儿
+地球知识局©
+返朴
+新浪科技©
+Topbook
+新周刊©
+//*[@id="top"]/div[position()>2]/div/div/a/div[2]/div/a/span
+g
+
+def get_lines():
+	with open('124.py', 'r') as f:
+		while True:
+			data = f.readlines(100)
+			if data:
+				yield data
+			else:
+				break
